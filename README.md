@@ -10,10 +10,10 @@ https://dc.library.okstate.edu/digital/iiif/OKMaps/3904/info.json
 Then take that url and replace `<url>` below with it.
 
 ```
-https://okstate-maps.github.io/openseadragon-cropper/?url=<url>
+https://okstate-maps.github.io/openseadragon-cropper/demo/?url=<url>
 ```
 
 For example:
 
-https://okstate-maps.github.io/openseadragon-cropper/?url=https://dc.library.okstate.edu/digital/iiif/OKMaps/3904/info.json
-`
+https://okstate-maps.github.io/openseadragon-cropper/demo/?url=https://dc.library.okstate.edu/digital/iiif/OKMaps/3904/info.json
+
