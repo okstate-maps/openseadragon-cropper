@@ -1,22 +1,19 @@
-## IIIF Cropper
-[![Build Status](https://travis-ci.org/sul-dlss/iiif-cropper.svg?branch=master)](https://travis-ci.org/sul-dlss/iiif-cropper)
-IIIF cropper is an openseadragon plugin that lets the user crop a portion of the displayed image at different zoom levels. This is useful when the image is very large or very high-resolution, and the user may want to zoom deeply before selecting a region of the image.
+# openseadragon-cropper
+This is a modified version of https://github.com/sul-dlss/iiif-cropper. This is not concerned with the plugin itself, instead, this repo is just a way to quickly host a tool to interactively select the region of a IIIF resource.
 
-## Installing and Running for Development
+To use it, find the IIIF Image URL of the resource you are interested in. For example:
 
-```bash
-// Install dependencies
-npm install
+```
+https://dc.library.okstate.edu/digital/iiif/OKMaps/3904/info.json
 ```
 
-```bash
-// Run dev server
-grunt serve
+Then take that url and replace `<url>` below with it.
+
+```
+https://okstate-maps.github.io/openseadragon-cropper/?url=<url>
 ```
 
-## Run Tests
+For example:
 
-```bash
-// build the project and run tests
-grunt karma
-```
+https://okstate-maps.github.io/openseadragon-cropper/?url=https://dc.library.okstate.edu/digital/iiif/OKMaps/3904/info.json
+`
